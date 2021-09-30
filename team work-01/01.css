@@ -2,7 +2,7 @@
     border: 2px solid grey;
     display: grid;
     height: 1000vh;
-    grid-template: repeat(6,33fr) / repeat(2,50fr);
+
     grid-template-areas: "header1 header2"
                           "titr titr"
                           "main main1"
