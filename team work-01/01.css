@@ -1,0 +1,66 @@
+.container {
+    border: 2px solid grey;
+    display: grid;
+    height: 1000vh;
+    grid-template: repeat(6,33fr) / repeat(2,50fr);
+    grid-template-areas: "header1 header2"
+                          "titr titr"
+                          "main main1"
+                          "main2 main3"
+                          "main4 main5"
+                          "footer1 footer2";
+
+}
+.box-1 {
+    grid-area: header1;
+    width: 500px;
+    height: 180px;
+    justify-content: left;
+
+}
+#border-bottom{
+    border-bottom: 1px solid grey;
+    margin: 50px 5px;
+
+}
+#poshtiban{
+
+
+
+
+}
+.box-2{
+    grid-area: header2;
+    background-repeat: no-repeat;
+}
+.box-3 {
+    grid-area: titr;
+
+}
+.box-4 {
+    grid-area: main;
+
+}
+.box-5 {
+    grid-area: main1;
+}
+.box-6 {
+    grid-area: main2;
+}
+.box-7 {
+    grid-area: main3;
+}
+.box-8 {
+    grid-area: main4;
+}
+.box-9 {
+    grid-area: main5;
+}
+.box-10 {
+    grid-area: footer1;
+}
+.box-11 {
+    grid-area: footer2;
+}
+
+
