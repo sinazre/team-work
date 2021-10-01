@@ -1,66 +1,75 @@
-.container {
-    border: 2px solid grey;
+body {
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+.body1{
     display: grid;
-    height: 1000vh;
-
-    grid-template-areas: "header1 header2"
-                          "titr titr"
-                          "main main1"
-                          "main2 main3"
-                          "main4 main5"
-                          "footer1 footer2";
-
+    grid-template-columns: repeat(2,1fr);
 }
-.box-1 {
-    grid-area: header1;
-    width: 500px;
-    height: 180px;
-    justify-content: left;
-
+.body1 .right img{
+    width: 90%;
+    margin-top: 10px;
 }
-#border-bottom{
-    border-bottom: 1px solid grey;
-    margin: 50px 5px;
-
-}
-#poshtiban{
-
-
-
-
-}
-.box-2{
-    grid-area: header2;
-    background-repeat: no-repeat;
-}
-.box-3 {
-    grid-area: titr;
-
-}
-.box-4 {
-    grid-area: main;
-
-}
-.box-5 {
-    grid-area: main1;
-}
-.box-6 {
-    grid-area: main2;
-}
-.box-7 {
-    grid-area: main3;
-}
-.box-8 {
-    grid-area: main4;
-}
-.box-9 {
-    grid-area: main5;
-}
-.box-10 {
-    grid-area: footer1;
-}
-.box-11 {
-    grid-area: footer2;
+.part1{
+    display: flex;
 }
 
+#text-p1{
+    margin-left: 60px;
+}
+#text-p1 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+#text-p2{
 
+    margin-left: 60px;
+}
+.part2{
+    display: flex;
+}
+#text-p2 p{
+
+    font-size: 15px;
+}
+#call-icon{
+    float: right;
+    width: 65px;
+}
+.animate__pulse{
+    animation: infinite;
+    animation-duration: 1s;
+}
+#avatar{
+    transform: translateX(-10px);
+}
+.number{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.number p{
+    color:#2f679b;
+    font-weight: bolder;
+}
+.number p{
+    font-size: 25px !important;
+}
+.img-main{
+    margin-left: 80px;
+}
+.text-main{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 60px;
+    margin-left: 70px;
+}
+.body2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.body2 .left img{
+    width: 50%;
+    margin: 20px 0 0 60px;
+}
