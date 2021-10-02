@@ -37,13 +37,6 @@ body {
     float: right;
     width: 65px;
 }
-.animate__pulse{
-    animation: infinite;
-    animation-duration: 1s;
-}
-#avatar{
-    transform: translateX(-10px);
-}
 .number{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -52,10 +45,15 @@ body {
 .number p{
     color:#2f679b;
     font-weight: bolder;
-}
-.number p{
     font-size: 25px !important;
 }
+.help h1{
+    color:#7f7f7f;
+    font-size: 12px;
+    font-family: 'Overpass',"Arial", sans-serif;
+
+}
+
 .img-main{
     margin-left: 80px;
 }
@@ -70,6 +68,34 @@ body {
     grid-template-columns: repeat(2,1fr);
 }
 .body2 .left img{
-    width: 50%;
+    width: 65%;
     margin: 20px 0 0 60px;
+}
+.body2 .right .part1{
+    display: flex;
+}
+#text-p3 h1{
+    color:#000;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+#text-p3 p{
+    color:#000;
+    font-size: 17px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+.body2 .right .part2{
+    display: flex;
+}
+#check-box{
+    display: flex;
+}
+.check{
+   width: 20px;
+    height: 20px;
+}
+.p1{
+    margin-top: 0;
+    margin-left: 5px;
 }
