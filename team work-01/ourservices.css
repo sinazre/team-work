@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
+    margin:0 6%;
 }
 .body1{
     display: grid;
@@ -23,25 +24,22 @@ body {
     line-height: 60px;
 }
 #text-p2{
-
     margin-left: 60px;
 }
 .part2{
     display: flex;
 }
 #text-p2 p{
-
     font-size: 15px;
 }
 #call-icon{
-    float: right;
+    margin:10px 0 0 90px;
     width: 65px;
 }
 .number{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .number p{
     color:#2f679b;
     font-weight: bolder;
@@ -51,9 +49,7 @@ body {
     color:#7f7f7f;
     font-size: 12px;
     font-family: 'Overpass',"Arial", sans-serif;
-
 }
-
 .img-main{
     margin-left: 80px;
 }
@@ -89,13 +85,22 @@ body {
     display: flex;
 }
 #check-box{
-    display: flex;
+    margin-top: 5px;
 }
 .check{
-   width: 20px;
-    height: 20px;
+    margin-top: 10px;
 }
 .p1{
-    margin-top: 0;
+    color:#808080;
+    margin-top: -15px;
     margin-left: 5px;
+}
+.ppp{
+    display: flex;
+}
+.p2{
+    color:#808080;
+    font-size: 15px;
+    font-family: 'Overpass',"Arial", sans-serif;
+    margin-top: 20px;
 }
