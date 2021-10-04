@@ -3,6 +3,52 @@ body {
     font-family: 'Overpass', sans-serif;
     margin:0 6%;
 }
+.header{
+    display: flex;
+    font-size:20px;
+    margin: 50px 20px;
+    position: sticky;
+}
+#logo{
+    width: 150px;
+}
+#our-service a{
+    color :#5fb6cb;
+    border-bottom: 1px solid #5fb6cb;
+    padding-bottom: 5px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color :#5fb6cb;
+    border-bottom: 1px solid #5fb6cb;
+    padding-bottom: 5px;
+}
+.bluebox button{
+    font-size: 20px;
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background: #065ba7;
+    cursor: pointer;
+}
+.bluebox img{
+    transform: translateY(5px);
+}
 .body1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -51,21 +97,22 @@ body {
     font-family: 'Overpass',"Arial", sans-serif;
 }
 .img-main{
-    margin-left: 80px;
+    margin-left: 85px;
 }
 .text-main{
+    font-family: 'Overpass',"Arial", sans-serif;
     font-size: 30px;
     font-weight: bolder;
     line-height: 60px;
-    margin-left: 70px;
+    margin-left: 75px;
 }
 .body2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 .body2 .left img{
-    width: 65%;
-    margin: 20px 0 0 60px;
+    width: 75%;
+    margin: 20px 0 0 80px;
 }
 .body2 .right .part1{
     display: flex;
@@ -103,4 +150,111 @@ body {
     font-size: 15px;
     font-family: 'Overpass',"Arial", sans-serif;
     margin-top: 20px;
+}
+.body3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+}
+.body3 .right img{
+    width: 80%;
+    margin: 20px 0 0 0px;
+}
+.body3 .left{
+    margin-left: 80px;
+}
+.body3 .left .part1{
+    display: flex;
+}
+#text-p5 h1{
+    color:#000;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+#text-p5 p{
+    color:#000;
+    font-size: 17px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+.body3 .left .part2{
+    display: flex;
+}
+#check-box1{
+    margin-top: 5px;
+}
+.body4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+}
+.body4 .left img{
+    width: 75%;
+    margin: 20px 0 0 80px;
+}
+.body4 .right .part1{
+    display: flex;
+}
+#text-p7 h1{
+    color:#000;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+#text-p7 p{
+    color:#000;
+    font-size: 17px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+.body4 .right .part2{
+    display: flex;
+}
+#check-box2{
+    margin-top: 5px;
+}
+.body5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+}
+.body5 .right img{
+    width: 75%;
+    margin: 20px 0 0 10px;
+}
+.body5 .left{
+    margin-left: 80px;
+}
+.body5 .left .part1{
+    display: flex;
+}
+#text-p9 h5{
+    color:#000;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Overpass', sans-serif;
+}
+#text-p9 p{
+    color:#000;
+    font-size: 17px;
+    font-family: 'Overpass',"Arial", sans-serif;
+}
+.body5 .left .part2{
+    display: flex;
+}
+#check-box3{
+    margin-top: 5px;
+}
+.reads-more{
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+
+}
+.read{
+    /*cursor: pointer;*/
+    /*background: rgba(0,0,0,.05)*/
+    background-color: #f4f4f4!important
+}
+.reads{
+    padding: 0 30px;
 }
