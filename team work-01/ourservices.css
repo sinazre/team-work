@@ -1,16 +1,22 @@
 body {
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
-    margin:0 6%;
+    /*margin:0 6%;*/
+}
+#all{
+    margin:20px 5% 0 5%;
 }
 .header{
     display: flex;
-    font-size:20px;
+    font-size:16px;
     margin: 50px 20px;
     position: sticky;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    /*margin:0 6%;*/
 }
 #logo{
-    width: 150px;
+    width: 250px;
 }
 #our-service a{
     color :#5fb6cb;
@@ -36,7 +42,8 @@ nav ul li a:hover{
     border-bottom: 1px solid #5fb6cb;
     padding-bottom: 5px;
 }
-.bluebox button{
+.header .bluebox button{
+    margin-left: 35px;
     font-size: 20px;
     width: 140px;
     border: 0;
@@ -46,7 +53,7 @@ nav ul li a:hover{
     background: #065ba7;
     cursor: pointer;
 }
-.bluebox img{
+.header .bluebox img{
     transform: translateY(5px);
 }
 .body1{
@@ -139,8 +146,11 @@ nav ul li a:hover{
 }
 .p1{
     color:#808080;
-    margin-top: -15px;
+    margin-top: 15px;
     margin-left: 5px;
+}
+.check-box{
+    display: flex;
 }
 .ppp{
     display: flex;
@@ -244,17 +254,16 @@ nav ul li a:hover{
 #check-box3{
     margin-top: 5px;
 }
-.reads-more{
-    display: inline-block;
-    position: relative;
-    padding: 10px 20px;
-
-}
 .read{
-    /*cursor: pointer;*/
-    /*background: rgba(0,0,0,.05)*/
-    background-color: #f4f4f4!important
-}
-.reads{
-    padding: 0 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    padding:10px 40px 10px 40px;
+    outline: none;
+    color: black;
+
+    background: rgba(0,0,0,.05);
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
 }
